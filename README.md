@@ -5,9 +5,7 @@ A polished and interactive **Wall Calendar UI Component** built using React, ins
 ---
 
 ## 🚀 Live Demo
-
-👉 (Add your Vercel link here)
-
+https://digital-calendar-app.vercel.app/
 ---
 
 ## 🎥 Video Demonstration
