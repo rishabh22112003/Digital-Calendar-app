@@ -10,7 +10,7 @@ https://digital-calendar-app.vercel.app/
 
 ## 🎥 Video Demonstration
 
-https://drive.google.com/file/d/1O8slACtCFSM9HBBE5QuqGn9jnPIsHfHP/view?usp=drive_link
+https://drive.google.com/file/d/1O8slACtCFSM9HBBE5QuqGn9jnPIsHfHP/view?usp=sharing
 ---
 
 ## 🎯 Objective
