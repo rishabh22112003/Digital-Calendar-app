@@ -1,16 +1,120 @@
-# React + Vite
+# 📅 Interactive Wall Calendar Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A polished and interactive **Wall Calendar UI Component** built using React, inspired by a physical wall calendar design. This project focuses on translating a static design concept into a responsive, user-friendly, and highly functional frontend experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 (Add your Vercel link here)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎥 Video Demonstration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 (Add Loom / YouTube link here)
+
+---
+
+## 🎯 Objective
+
+The goal of this project is to recreate a **real-world wall calendar aesthetic** while implementing interactive features such as date range selection and integrated notes, ensuring a seamless and responsive user experience across devices.
+
+---
+
+## 🛠 Core Features
+
+### 🖼 Wall Calendar Aesthetic
+
+* Clean and minimal UI inspired by physical calendars
+* Hero image integrated with the calendar layout
+* Proper visual hierarchy between image and date grid
+
+### 📆 Day Range Selector
+
+* Select **start date** and **end date**
+* Clear visual states:
+
+  * Start date
+  * End date
+  * In-between selected range
+
+### 📝 Notes Section
+
+* Add notes for:
+
+  * Entire month
+  * Selected date range
+* Data stored using **localStorage** (no backend required)
+
+### 📱 Fully Responsive Design
+
+* **Desktop:** Structured layout (image + calendar + notes)
+* **Mobile:** Stacked layout with smooth usability
+
+---
+
+## ✨ Additional Enhancements
+
+* Smooth UI interactions
+* Dynamic date highlighting
+* Clean component-based architecture
+* Optimized for performance and usability
+* Calendar animations (flip effect)
+
+---
+
+## 🧠 Technical Approach
+
+* Built using **React (Vite)**
+* Component-based design for scalability
+* Custom logic for date range selection
+* State management using React hooks
+* Responsive styling using Tailwind CSS / CSS
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── Calendar.jsx
+│   ├── Day.jsx
+│   ├── Notes.jsx
+│   ├── CalendarHeader.jsx
+│
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## ⚙️ How to Run Locally
+
+```
+git clone https://github.com/YOUR_USERNAME/calendar-app.git
+cd calendar-app
+npm install
+npm run dev
+```
+
+---
+
+## 📌 Evaluation Alignment
+
+This project is built strictly as a **frontend engineering challenge**, focusing on:
+
+* Clean and maintainable code
+* Strong UI/UX implementation
+* Responsive design handling
+* Interactive component behavior
+* Efficient state management
+
+---
+
+## 🚀 Future Improvements
+
+* Theme switching (based on image)
+* Holiday indicators
+* Drag & drop notes
